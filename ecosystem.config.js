@@ -2,8 +2,7 @@ module.exports = {
     apps: [
         {
             name: 'test',
-            script: 'src/server.ts',
-            interpreter: 'ts-node',
+            script: 'index.js',
             instances: 1, 
             autorestart: true,
             watch: false, // Disable watch mode in production
